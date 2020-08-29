@@ -32,6 +32,7 @@ with open(csv_path,newline= "") as csv_file:
 
     # iterate over all rows in csv_file and add contents to list
     for row in csv_reader:
+       
         # keep track of months and revenue 
         months.append(row[0])
         revenue.append(row[1])
